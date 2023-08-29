@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.task-card {
+  /* Estilos base de la tarjeta */
+}
+
+.upcoming {
+  background-color: #f0ad4e; /* Amarillo para tareas por realizar */
+}
+
+.onTime {
+  background-color: #5bc0de; /* Azul para tareas a tiempo */
+}
+
+.late {
+  background-color: #d9534f; /* Rojo para tareas vencidas */
+}
